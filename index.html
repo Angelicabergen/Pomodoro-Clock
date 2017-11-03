@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+    <audio id="sound" src="http://soundbible.com/grab.php?id=1630&type=mp3" type="audio/mpeg"></audio>
+    <title>Pomodoro Clock</title>
+</head>
+
+<body class="background">
+
+    <div class="text-center">
+        <h1 class="title">Build a Pomodoro Clock</h1>
+        <h2 class="subTitle">FreeCodeCamp Project Completed by Angelica Bergen</h2>
+        <div class="timeBox">
+            <div class="times1">
+                <h1 id="length">Break Length</h1>
+                <h1>
+                    <button id="breakMinus" class="btn plusMinus" type="button">-</button>
+                    <a id="breakNum">5</a>
+                    <button id="breakPlus" class="btn plusMinus" type="button">+</button>
+                </h1>
+            </div>
+            <div class="times2">
+                <h1 id="length">Session Length</h1>
+                <h1>
+                    <button id="sessionMinus" class="btn plusMinus" type="button">-</button>
+                    <a id="sessionNum">25</a>
+                    <button id="sessionPlus" class="btn plusMinus" type="button">+</button>
+                </h1>
+            </div>
+            <div>
+                <button id="start" class="btn startReset" type="button">Start</button>
+                <button id="reset" class="btn startReset" type="button">Reset</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+        crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>

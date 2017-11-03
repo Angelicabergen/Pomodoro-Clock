@@ -1,0 +1,47 @@
+.background{
+    background-image: url(https://static.pexels.com/photos/633198/pexels-photo-633198.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.title{
+    font-family: palatino, cambria, serif;
+    font-size: 48px;
+    padding-top: 20px;
+}
+.subTitle{
+    font-family: palatino, cambria, serif;
+}
+.plusMinus{
+    border-radius: 40%;
+    background-color: #708090;
+    color: white;
+    position: relative;
+    border: 2px solid #2f4f4f;
+}
+.plusMinus:hover, .startReset:hover{
+    color: black;
+    background-color: #2f4f4f;
+    border: 2px solid #708090;
+}
+.times1, .times2{
+    display: inline-block;
+    padding: 10px;
+    font-family: palatino, cambria, serif;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 50px;
+}
+.startReset{
+    background-color: #708090;
+    color: white;
+    position: relative;
+    border: 2px solid #2f4f4f;
+    border-radius: 20%;
+    font-size: 24px;
+}
+.timeBox{
+    margin-top:5%;
+}
